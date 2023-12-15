@@ -1,0 +1,143 @@
+@font-face
+{
+    font-family: "OpenSans";
+    src: url("assets/OpenSans.ttf");
+}
+
+*
+{
+    font-family: "OpenSans";
+}
+
+body
+{
+    background-color: rgb(235, 235, 235);
+}
+
+section
+{
+    display: block;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 1px rgb(213, 213, 213);
+    border-radius: 5px;
+    
+}
+
+#section1 .picture
+{
+    height: 100px;
+    box-shadow: 0px 0px 1px 3px rgb(207, 207, 207);
+    border-radius: 50%;
+}
+
+#section1
+{
+    text-align: center;
+}
+
+h1
+{
+    color: rgb(230, 114, 99);
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: auto;
+}
+
+#section1 > h2
+{
+    color:rgb(127, 133, 133);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#section1 > p
+{
+    color:rgb(127, 133, 133);
+    text-align: justify;
+    font-size: 13px;
+}
+
+#section1 > a
+{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(230, 114, 99);
+    padding: 8px 8px 8px 8px;
+    border-radius: 3px;
+}
+
+#section2 > ul
+{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#section2 > ul > li
+{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+#section2 > ul > li > a
+{
+    color: lightgrey;
+    text-decoration: none;
+}
+
+#section3
+{
+    color:rgb(127, 133, 133);
+}
+
+#section3 > h2 > span
+{
+    background-color: lightgray;
+    text-transform: capitalize;
+}
+
+#section3 > h2
+{
+    text-align: center;
+    text-transform: lowercase;
+    color:rgb(127, 133, 133);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#section3 .container
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#section3 .image > img
+{
+    width: 80px;
+    height: auto;
+}
+
+#section3 .text
+{
+    text-align: center;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+#section3 .text > p
+{
+    text-align: justify;
+}
