@@ -1,0 +1,336 @@
+@font-face
+{
+    font-family: "VT323-Regular";
+    src: url("assets/fonts/VT323-Regular.ttf");
+}
+
+body
+{
+    background-color: lightgray;
+    --TopLeftCorner: none dashed dashed none;
+    --TopRightCorner: none none dashed dashed;
+    --DownLeftCorner: dashed dashed none none;
+    --DownRightCorner: dashed none none dashed;
+    --Left: dashed dashed dashed none;
+    --Right: dashed none dashed dashed;
+    --Top: none dashed dashed dashed;
+    --Down: dashed dashed none dashed;
+    --Center: dashed dashed dashed dashed;
+}
+
+section
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid
+{
+    display: flex;
+    box-shadow: -5px -5px 3px 5px rgb(162, 162, 162), 0px 0px 3px 10px rgb(230, 230, 230);
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-flow: wrap row;
+}
+
+.grid-item
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.corner-up-left
+{
+    border-style: var(--TopLeftCorner);
+    border-width: 2px;
+}
+
+.corner-up-right
+{
+    border-style: var(--TopRightCorner);
+    border-width:2px;
+}
+
+.corner-down-left
+{
+    border-style: var(--DownLeftCorner);
+    border-width: 2px;
+}
+
+.corner-down-right
+{
+    border-style: var(--DownRightCorner);
+    border-width: 2px;
+}
+
+.top
+{
+    border-style: var(--Top);
+    border-width: 2px;
+}
+
+.down
+{
+    border-style: var(--Down);
+    border-width: 2px;
+}
+
+.left 
+{
+    border-style: var(--Left);
+    border-width: 2px;
+}
+
+.right 
+{
+    border-style: var(--Right);
+    border-width: 2px;
+}
+
+.center
+{
+    border-style: var(--Center);
+    border-width: 2px;
+}
+
+/*.visible.mine
+{
+    content: url(assets/images/mine.png);
+    padding: 5px;
+}*/
+
+.visible.mine
+{
+    background-image: url(assets/images/mine.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.visible.one::after
+{
+    content:"1";
+    font-size: 40px;
+    font-family: VT323-Regular;
+    color: blue;
+}
+
+.visible.two::after
+{
+    content:"2";
+    font-size: 40px;
+    font-family: VT323-Regular;
+    color: green;
+}
+
+.visible.three::after
+{
+    content:"3";
+    font-size: 40px;
+    font-family: VT323-Regular;
+    color: red;
+}
+
+/* Hidden boxes*/
+
+.hidden
+{
+    border-left: white;
+    border-right: grey;
+    border-top: white;
+    border-bottom: grey;
+    border-style: outset;
+}
+
+.hidden:hover
+{
+    transition: 0.5s;
+    border: none;
+}
+
+.corner-up-left.hidden:hover
+{
+    border-style: var(--TopLeftCorner);
+    border-width: 2px;
+}
+
+.corner-up-right.hidden:hover
+{
+    border-style: var(--TopRightCorner);
+    border-width:2px;
+}
+
+.corner-down-left.hidden:hover
+{
+    border-style: var(--DownLeftCorner);
+    border-width: 2px;
+}
+
+.corner-down-right.hidden:hover
+{
+    border-style: var(--DownRightCorner);
+    border-width: 2px;
+}
+
+.top.hidden:hover
+{
+    border-style: var(--Top);
+    border-width: 2px;
+}
+
+.down.hidden:hover
+{
+    border-style: var(--Down);
+    border-width: 2px;
+}
+
+.left.hidden:hover
+{
+    border-style: var(--Left);
+    border-width: 2px;
+}
+
+.right.hidden:hover
+{
+    border-style: var(--Right);
+    border-width: 2px;
+}
+
+.center.hidden:hover
+{
+    border-style: var(--Center);
+    border-width: 2px;
+}
+
+/*transition for number 1*/
+.hidden.one::before
+{
+    opacity: 1;
+}
+
+.hidden.one::after
+{
+    content:"1";
+    font-size: 40px;
+    font-family: VT323-Regular;
+    color: blue;
+    opacity: 0;
+}
+
+.hidden.one:hover::before, .hidden.one:hover::after
+{
+    transition: opacity 0.7s linear;
+}
+
+.hidden.one:hover::before
+{
+    opacity: 0;
+}
+
+.hidden.one:hover::after
+{
+    opacity: 1;
+}
+
+/*transition for number 2*/
+.hidden.two::before
+{
+    opacity: 1;
+}
+
+.hidden.two::after
+{
+    content:"2";
+    font-size: 40px;
+    font-family: VT323-Regular;
+    color: green;
+    opacity: 0;
+}
+
+.hidden.two:hover::before, .hidden.two:hover::after
+{
+    transition: opacity 0.7s linear;
+}
+
+.hidden.two:hover::before
+{
+    opacity: 0;
+}
+
+.hidden.two:hover::after
+{
+    opacity: 1;
+}
+
+/*transition for number 3*/
+.hidden.three::before
+{
+    opacity: 1;
+}
+
+.hidden.three::after
+{
+    content:"3";
+    font-size: 40px;
+    font-family: VT323-Regular;
+    color: red;
+    opacity: 0;
+}
+
+.hidden.three:hover::before, .hidden.three:hover::after
+{
+    transition: opacity 0.7s linear;
+}
+
+.hidden.three:hover::before
+{
+    opacity: 0;
+}
+
+.hidden.three:hover::after
+{
+    opacity: 1;
+}
+
+/*transition for mine*/
+.hidden.mine::before
+{
+    opacity: 1;
+}
+
+.hidden.mine::after
+{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/images/mine.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+.hidden.mine:hover::before, .hidden.mine:hover::after
+{
+    transition: opacity 0.7s linear;
+}
+
+.hidden.mine:hover::before
+{
+    opacity: 0;
+}
+
+.hidden.mine:hover::after
+{
+    opacity: 1;
+}
