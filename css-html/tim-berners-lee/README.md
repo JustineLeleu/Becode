@@ -1,6 +1,6 @@
 # Tim Berners-Lee
 
-You might not know him, but Tim Berners-Lee is the the inventor of HTML. In his honor, you will make a web page, following a predefined mockup.
+You might not know him, but Tim Berners-Lee is the inventor of HTML. In his honor, you will make a web page, following a predefined mockup.
 
 
 ## Screenshots
