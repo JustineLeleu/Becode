@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Becode.iml" filepath="$PROJECT_DIR$/Becode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/markdown-challenge.iml" filepath="$PROJECT_DIR$/markdown-challenge.iml" />
     </modules>
   </component>
 </project>
