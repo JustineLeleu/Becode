@@ -1,0 +1,132 @@
+@font-face
+{
+    font-family: "OpenSans";
+    src: url("Assets/OpenSans.ttf");
+}
+
+*
+{
+    font-family: "OpenSans";
+}
+
+p
+{
+    font-family: "OpenSans";
+    word-spacing: 5px;
+    font-size: medium;
+    color: rgb(19, 3, 80);
+}
+
+a
+{
+    color: rgb(101, 137, 174);
+    text-decoration-line: none;
+}
+
+a:hover
+{
+    color: rgb(10, 90, 160);
+}
+
+a:visited
+{
+    color: rgb(112, 112, 112);
+}
+
+body
+{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    background: linear-gradient(90deg, rgb(86, 100, 110) 0%, rgb(170, 186, 207) 35%, rgb(223, 250, 255) 100%);
+    background-image: url(Assets/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+q
+{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 160%;
+    background-color: rgb(241, 241, 241);
+    border-left: 3px solid grey;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+.villager
+{
+    border-color: rgb(161, 69, 69);
+}
+
+.farmer
+{
+    border-color: rgb(76, 132, 93);
+}
+
+header > h1
+{
+    background-color: rgb(228, 228, 174);
+}
+
+.good, .bad
+{
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+th > .good, th > .bad
+{
+    font-weight: bold;
+}
+
+.good
+{
+    color: red;
+}
+
+.bad
+{
+    color: green;
+}
+
+tr:nth-child(odd)
+{
+    background-color: grey;
+}
+
+figure
+{
+    float: left;
+    width: 40%;
+    margin: 10px 50px 10px 0px;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    /* rajoute le code nécessaire ici*/
+    position: fixed;
+    bottom: 10px;
+}
+
+p:nth-child(2)
+{
+    font-weight: bold;
+}

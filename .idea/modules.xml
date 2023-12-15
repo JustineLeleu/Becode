@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Becode.iml" filepath="$PROJECT_DIR$/Becode.iml" />
       <module fileurl="file://$PROJECT_DIR$/error404-page.iml" filepath="$PROJECT_DIR$/error404-page.iml" />
       <module fileurl="file://$PROJECT_DIR$/markdown-challenge.iml" filepath="$PROJECT_DIR$/markdown-challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progressive-enhancement.iml" filepath="$PROJECT_DIR$/progressive-enhancement.iml" />
     </modules>
   </component>
 </project>
