@@ -12,7 +12,7 @@ The mission was to turn a CSS project into a SASS one.
 
 [![MIT License](https://img.shields.io/badge/CSS-purple.svg)](https://choosealicense.com/licenses/mit/)
 [![MIT License](https://img.shields.io/badge/HTML-red.svg)](https://choosealicense.com/licenses/mit/)
-
+[![MIT License](https://img.shields.io/badge/SASS-pink.svg)](https://choosealicense.com/licenses/mit/)
 
 ## work progress
 
