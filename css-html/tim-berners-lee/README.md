@@ -16,4 +16,4 @@ You might not know him, but Tim Berners-Lee is the inventor of HTML. In his hono
 
 ## work progress
 
-This project was made in august 2023 during a formation at BeCode.
+This project was made in August 2023 during a formation at BeCode.
