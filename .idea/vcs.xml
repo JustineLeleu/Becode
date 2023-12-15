@@ -4,22 +4,5 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/css-html/404-page" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/css-html/Grid-away-grid-ahoy-" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/css-html/Responsive" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/css-html/challenge-sass" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/css-html/flexbox-minesweeper" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/css-html/markdown-to-html" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/css-html/progressive-enhancement" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/css-html/tim-berners-lee" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/java/java_week_1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/java/java_week_2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/java/java_week_3" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/java/java_week_4" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/javascript/DOM" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/javascript/Js_Extras" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/javascript/algo-js" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/javascript/random-quote-using-async-await" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/php/PHP" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/php/SQL" vcs="Git" />
   </component>
 </project>
