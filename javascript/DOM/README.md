@@ -5,6 +5,7 @@ Theses are different exercises about JS and DOM.
 
 [![MIT License](https://img.shields.io/badge/JS-yellow.svg)](https://choosealicense.com/licenses/mit/)
 [![MIT License](https://img.shields.io/badge/HTML-red.svg)](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/CSS-purple.svg)](https://choosealicense.com/licenses/mit/)
 
 
 ## work progress
