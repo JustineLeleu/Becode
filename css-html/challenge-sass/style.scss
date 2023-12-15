@@ -1,0 +1,162 @@
+@import "_variables.scss";
+
+$base-color: rgb(67, 140, 213);
+
+@mixin shadow-color($color)
+{
+    -webkit-box-shadow: 10px 10px 15px -4px $color;
+    -moz-box-shadow: 10px 10px 15px -4px $color;
+    box-shadow: 10px 10px 15px -4px $color;
+}
+
+%h-color
+{
+    color: $pink;
+}
+
+%h-align
+{
+    text-align: center;
+}
+
+%messages
+{
+    border: 1px solid #8C8C8C;
+    padding: 16px;
+    color: #fff;
+}
+
+*
+{
+    padding: $padding;
+}
+
+
+
+body 
+{
+    font: 100% "Space Mono", monospace;
+    color: $grey;
+    margin: 0;
+    padding: 0;
+    background-color: $white;
+    overflow-x: hidden;
+
+    h1
+    {
+        @extend %h-align;
+        @extend %h-color;
+    }
+
+    main 
+    {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        article
+        {
+            display: flex;
+            flex-wrap: wrap;
+
+            #selling-points
+            {
+                flex-grow: 2;
+                flex-basis: 100%;
+
+                .advantages
+                {
+                    @for $i from 1 to 7
+                    {
+                        :nth-child(#{$i})
+                        {
+                            background-color: lighten($base-color, $i * 5%);
+                        }
+                    }
+                }
+            }
+            section
+            {
+                flex-grow: 1;
+                flex-basis: 45%;
+                border: 1px $lightgrey solid;
+                @include shadow-color($grey);
+                padding: 16px;
+                margin: 16px;
+                clear: both;
+                overflow: auto;
+                box-sizing: border-box;
+
+                h2
+                {
+                    @extend %h-color;
+                }
+
+                code
+                {
+                    background: $black;
+                    border: 1px solid $grey;
+                    color: $lightgrey;
+                    page-break-inside: avoid;
+                    font-family: monospace;
+                    font-size: 15px;
+                    line-height: 1.6;
+                    margin-bottom: 1.6em;
+                    max-width: 100%;
+                    overflow: auto;
+                    padding: 1em 1.5em;
+                    display: block;
+                    word-wrap: break-word;
+                }
+
+                .before
+                {
+                    float: left;
+                    width: 40%;
+                }
+                .after
+                {
+                    float: right;
+                    width: 40%;
+                }
+            }
+        }
+
+        .messages
+        {
+            .success
+            {
+                @extend %messages;
+                background-color: $green;
+            }
+
+            .warning
+            {
+                @extend %messages;
+                background-color: $orange;
+            }
+            .error
+            {
+                @extend %messages;
+                background-color: $red;
+                &:hover
+                {
+                    background-color: $green;
+                }
+            }
+        }
+    }
+
+    footer
+    {
+        h3
+        {
+            @extend %h-align;
+            @extend %h-color;
+            font-size: 1.5em;
+            padding: 32px;
+            margin-bottom: 0px;
+            padding: $padding * 2;
+        }
+    }
+
+}
