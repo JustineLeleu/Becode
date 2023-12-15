@@ -1,11 +1,11 @@
-# 404 Page
+# Progressive enhancement
 
-You have to create a new repository called 404-page containing the HTML and CSS required for an error 404 page.
+This is a project made to test a few different things in HTML and CSS.
 
 
 ## Screenshots
 
-![Page Screenshot](readme-ressources/error404-page.png)
+![Page Screenshot](readme-ressources/page-screenshot.png)
 
 
 ## Badges
