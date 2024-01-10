@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/java_week_3/pom.xml" />
+        <option value="$PROJECT_DIR$/java_week_1/pom.xml" />
+        <option value="$PROJECT_DIR$/java/pom.xml" />
+        <option value="$PROJECT_DIR$/java/java_week_1/pom.xml" />
+        <option value="$PROJECT_DIR$/java_week_2/pom.xml" />
+        <option value="$PROJECT_DIR$/java/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/java/java_week_4/pom.xml" />
+        <option value="$PROJECT_DIR$/java/java_week_5/pom.xml" />
+        <option value="$PROJECT_DIR$/java/java_week_5/Hospital-Registration-API/pom.xml" />
+        <option value="$PROJECT_DIR$/java/java_week_5/Client-Application-API/pom.xml" />
+        <option value="$PROJECT_DIR$/java/java_week_5/Data-Analysis-Tool/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/java/demo/pom.xml" />
+      </set>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
